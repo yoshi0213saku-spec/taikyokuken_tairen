@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>太極拳の「対練」とは、</title>
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --primary-hover: #0056b3;
+            --bg-color: #f8fafc;
+            --text-color: #334155;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            max-width: 450px;
+            width: 100%;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #1e293b;
+            margin-bottom: 15px;
+            font-size: 24px;
+            letter-spacing: -0.025em;
+        }
+
+        p {
+            color: #64748b;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
+
+        .pdf-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 18px;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .pdf-link:hover {
+            background: linear-gradient(135deg, #0084ff 0%, #0062d1 100%);
+            box-shadow: 0 6px 18px rgba(0, 123, 255, 0.4);
+            transform: scale(1.02);
+        }
+
+        .pdf-link:active {
+            transform: scale(0.98);
+        }
+
+        .icon {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
+        .footer-note {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>太極拳の「対練」とは、</h2>
+        <p>資料を閲覧するには、下のボタンをクリックしてください。<br>新しいタブでPDFが開きます。</p>
+
+        <a href="taikyokuken_tairen.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">
+            <span class="icon">📄</span> PDF資料を表示
+        </a>
+
+        <div class="footer-note">
+            ※ファイルが開かない場合は、ブラウザの設定を確認してください。
+        </div>
+    </div>
+
+</body>
+</html>
